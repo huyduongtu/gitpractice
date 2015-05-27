@@ -49,8 +49,12 @@ public class AQuery extends AbstractAQuery<AQuery>{
         if(act != null)
             MemoryTrimmableRegistry.createMemoryTrimmableRegistry(act);
         else
+			if(root != null)
             MemoryTrimmableRegistry.createMemoryTrimmableRegistry(root.getContext());
+			
 	}
 }
+Fuck off.
+
 
 
